@@ -12,4 +12,8 @@ public class Man extends Human{
     public Man(boolean sex) {
         super(sex);
     }
+
+    public Man() {
+
+    }
 }

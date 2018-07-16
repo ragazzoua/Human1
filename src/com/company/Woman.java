@@ -11,4 +11,10 @@ public class Woman extends Human{
     public Woman(boolean sex) {
         super(sex);
     }
+
+    public Woman() {
+
+    }
+
+
 }

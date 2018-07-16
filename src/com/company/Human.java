@@ -1,6 +1,7 @@
 package com.company;
 
 import java.util.Random;
+import java.util.Scanner;
 
 /**
  * created by FAMILY 15.07.2018
@@ -14,6 +15,7 @@ public class Human {
     private float height;
     private float weight;
     Random random = new Random();
+    Scanner scanner = new Scanner(System.in);
 
     public Human(boolean sex, String name, String surname, float height, float weight) {
         this.sex = sex;
@@ -24,6 +26,10 @@ public class Human {
     }
 
     public Human(boolean sex) {
+
+    }
+
+    public Human() {
 
     }
 
@@ -135,5 +141,27 @@ public class Human {
             }
         }
         return false;
+    }
+
+    public void isPerson() {
+        for (int i = 0; i < 1; i++) {
+            System.out.println("Введите данные для двух особей");
+            System.out.println("Sex ");
+            boolean sex = scanner.nextBoolean();
+            System.out.println("Sex " + sex);
+            System.out.println("Name ");
+            String name = scanner.next();
+            System.out.println("Name " + name);
+            System.out.println("Surname ");
+            String surname = scanner.next();
+            System.out.println("Surname " + surname);
+            System.out.println("Growth ");
+            float growth = scanner.nextFloat();
+            System.out.println("Growth " + growth);
+            System.out.println("Weight ");
+            float weight = scanner.nextFloat();
+            System.out.println("Weight " + weight);
+        }
+
     }
 }
