@@ -124,9 +124,8 @@ public class Human {
                 return true;
             }
         }
-        {
-            return false;
-        }
+
+        return false;
     }
 
     public boolean spentTimeTogether(float m, float f) {
