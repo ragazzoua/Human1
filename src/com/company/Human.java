@@ -123,10 +123,8 @@ public class Human {
             if (random.nextInt(100) < 5.6) {
                 return true;
             }
-        } else {
-            return false;
         }
-
+        return false;
 
     }
 
