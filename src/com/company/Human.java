@@ -104,28 +104,23 @@ public class Human {
 
     public boolean societyYes(boolean x, boolean y) {
         if (x == false && y == false) {
-
             if (random.nextInt(100) < 5) {
                 return true;
             }
         } else if (x == false && y == true) {
-
             if (random.nextInt(100) < 70) {
                 return true;
             }
         } else if (x == true && y == false) {
-
             if (random.nextInt(100) < 70) {
                 return true;
             }
         } else if (x == true && y == true) {
-
             if (random.nextInt(100) < 5.6) {
                 return true;
             }
         }
         return false;
-
     }
 
     public boolean spentTimeTogether(float m, float f) {
@@ -161,6 +156,5 @@ public class Human {
             float weight = scanner.nextFloat();
             System.out.println("Weight " + weight);
         }
-
     }
 }
